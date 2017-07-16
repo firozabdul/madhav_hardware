@@ -92,9 +92,10 @@
   .nav-tabs li a {
       color: #777;
   }
-      #bottomone{
+      #bottomone img{
           right : 20px;
           position: absolute;
+         
       }
   #googleMap1 {
       width: 100%;
@@ -180,6 +181,9 @@
       }
       #insta img{
           border-radius: 15px;
+      }
+      #foot{
+          height: 270px;
       }
   </style>
 </head>
@@ -559,25 +563,32 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
     </script>
 
 <!-- Footer -->
-    <div class="container">
-       <div class="col-sm-12">
+  
+       
 <footer class="text-center">
+ <div id="foot">
+    <div class="container" >
+  <div class="col-sm-2">
     <a target="_blank" title="find us on Facebook" href="https://www.facebook.com/madhavhardwarevizag/"> <div id="fb"><img  height="45px" width="45px"
-                                                                                                         alt="find us on facebook" src="fbicon.jpg" border=0></div></a> 
-   <div id="bottomone"> <img src="bottom.png" height="180px" width="180px"></div>
+                                                                                                         alt="find us on facebook" src="fbicon.jpg" border=0></div></a> <br><br>
+      <a target="_blank" title="Find us on Facebook" href="https://www.instagram.com/madhavhardwarevizag/?hl=en"><div id="insta"> <img  height="45px" width="45px"
+                                                                                                                                      alt="find us on facebook" src="insta.jpg" border=0></div></a> </div>
+    <div class="col-sm-8">
+  
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
       
     <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
-     <a target="_blank" title="find us on Facebook" href="https://www.instagram.com/madhavhardwarevizag/?hl=en"><div id="insta"> <img  height="45px" width="45px"
-                                                                                                                                      alt="find us on facebook" src="insta.jpg" border=0></div></a> 
-    
+  </a>
+     
   <p><span class="glyphicon glyphicon-chevron-left her"></span> -- Designed and Developed by  <a href="https://www.facebook.com/firoz.ab98" data-toggle="tooltip" title="Visit Firoz's Facebook page">Firoz Abdul -- </a><span class="glyphicon glyphicon-chevron-right her"></span></p> 
     <p class="tect-center"> Contact : 9494615750</p>
      <p class="tect-center">Email : feroz_md98@yahoo.com</p>
-    
-</footer>
-</div></div> 
+        
+    </div>
+    <div class="col-sm-2">
+     <div id="bottomone"> <img src="bottom.png" height="180px" width="180px"></div></div>
+     </div></div></footer>
+
 <script>
 $(document).ready(function(){
   // Initialize Tooltip
